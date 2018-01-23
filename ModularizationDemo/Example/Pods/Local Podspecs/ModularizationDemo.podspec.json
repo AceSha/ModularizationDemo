@@ -1,0 +1,22 @@
+{
+  "name": "ModularizationDemo",
+  "version": "0.1.0",
+  "summary": "A short description of ModularizationDemo.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/81556205@qq.com/ModularizationDemo",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "81556205@qq.com": "shayuan@sensenets.com"
+  },
+  "source": {
+    "git": "https://github.com/81556205@qq.com/ModularizationDemo.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ModularizationDemo/Classes/**/*"
+}

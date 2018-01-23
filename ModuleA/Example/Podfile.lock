@@ -1,0 +1,28 @@
+PODS:
+  - Modularization (0.1.0)
+  - ModuleA (0.1.0):
+    - Modularization
+    - PublicModule
+  - PublicModule (0.1.0)
+
+DEPENDENCIES:
+  - Modularization (from `../../Modularization`)
+  - ModuleA (from `../`)
+  - PublicModule (from `../../PublicModule`)
+
+EXTERNAL SOURCES:
+  Modularization:
+    :path: ../../Modularization
+  ModuleA:
+    :path: ../
+  PublicModule:
+    :path: ../../PublicModule
+
+SPEC CHECKSUMS:
+  Modularization: 00466601fb7a7554a06420056cd41543783e6c1c
+  ModuleA: acc54999337c960528a33ba0e556fc7a4da1676c
+  PublicModule: 88fc284db5ee1cdc5de50a199ea630c4d5dbba76
+
+PODFILE CHECKSUM: 92e881947cdb21755c42bf6c5c13c6c42a119017
+
+COCOAPODS: 1.3.1

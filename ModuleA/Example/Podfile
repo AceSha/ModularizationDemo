@@ -1,0 +1,7 @@
+use_frameworks!
+target 'ModuleA_Tests' do
+  pod 'ModuleA', :path => '../'
+  pod 'Modularization', :path => '../../Modularization'
+  pod 'PublicModule', :path => '../../PublicModule'
+  
+end

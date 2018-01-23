@@ -1,0 +1,6 @@
+use_frameworks!
+target 'PublicModule_Tests' do
+  pod 'PublicModule', :path => '../'
+  
+  
+end

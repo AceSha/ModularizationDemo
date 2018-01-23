@@ -1,0 +1,6 @@
+use_frameworks!
+target 'ModuleB_Tests' do
+  pod 'ModuleB', :path => '../'
+  
+  
+end

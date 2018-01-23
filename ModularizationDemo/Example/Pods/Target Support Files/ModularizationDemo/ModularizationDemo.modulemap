@@ -1,0 +1,6 @@
+framework module ModularizationDemo {
+  umbrella header "ModularizationDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

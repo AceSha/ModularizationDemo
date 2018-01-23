@@ -1,0 +1,47 @@
+PODS:
+  - Modularization (0.0.1):
+    - ModuleSearch
+  - ModularizationDemo (0.1.0)
+  - ModuleA (0.1.0):
+    - Modularization
+    - PublicModule
+  - ModuleB (0.1.0):
+    - Modularization
+    - PublicModule
+  - ModuleSearch (0.0.1)
+  - PublicModule (0.1.0):
+    - Modularization
+    - URLNavigator
+  - URLNavigator (2.0.4)
+
+DEPENDENCIES:
+  - Modularization
+  - ModularizationDemo (from `../`)
+  - ModuleA (from `../../ModuleA`)
+  - ModuleB (from `../../ModuleB`)
+  - ModuleSearch
+  - PublicModule (from `../../PublicModule`)
+  - URLNavigator
+
+EXTERNAL SOURCES:
+  ModularizationDemo:
+    :path: ../
+  ModuleA:
+    :path: ../../ModuleA
+  ModuleB:
+    :path: ../../ModuleB
+  PublicModule:
+    :path: ../../PublicModule
+
+SPEC CHECKSUMS:
+  Modularization: ead4d3dd7cb8306e50a7221bf1e07e2c97a034c4
+  ModularizationDemo: 6062e477ce8237ba60375af13da9e23987c25804
+  ModuleA: 4c2305b4fa96b6bbff60571174afa733455aec82
+  ModuleB: 63f66b4deebe876c4cc57e007702e453bad73a53
+  ModuleSearch: 5ac5bfb4938d4853a0541cfd2ea1a9dc63ee5903
+  PublicModule: 481d292118ec109e810c89892b9996a78ea831c5
+  URLNavigator: af5582fbbb3586c958be16835d799bfdb23a4793
+
+PODFILE CHECKSUM: 0a0fa26848c5106c5b6c60124567f43a211dc786
+
+COCOAPODS: 1.4.0

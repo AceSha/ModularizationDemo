@@ -1,0 +1,18 @@
+use_frameworks!
+
+target 'ModularizationDemo_Example' do
+  pod 'ModularizationDemo', :path => '../'
+  pod 'Modularization'
+  pod 'ModuleSearch'
+  pod 'URLNavigator'
+
+  pod 'PublicModule', :path => '../../PublicModule'
+  pod 'ModuleA', :path => '../../ModuleA'
+  pod 'ModuleB', :path => '../../ModuleB'
+
+  target 'ModularizationDemo_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

@@ -1,0 +1,16 @@
+PODS:
+  - PublicModule (0.1.0)
+
+DEPENDENCIES:
+  - PublicModule (from `../`)
+
+EXTERNAL SOURCES:
+  PublicModule:
+    :path: ../
+
+SPEC CHECKSUMS:
+  PublicModule: 88fc284db5ee1cdc5de50a199ea630c4d5dbba76
+
+PODFILE CHECKSUM: 37765dbfedb86f93c89fea52febfa9d33ef9b12a
+
+COCOAPODS: 1.3.1

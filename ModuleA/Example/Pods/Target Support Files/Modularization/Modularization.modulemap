@@ -1,0 +1,6 @@
+framework module Modularization {
+  umbrella header "Modularization-umbrella.h"
+
+  export *
+  module * { export * }
+}
